@@ -1,0 +1,4 @@
+[08-Sep-2021 22:41:44 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/d9t5ujt3nrd8/minhabelezaautentica.com.br/blog/wp-includes/functions.php on line 8
+[08-Sep-2021 22:41:44 UTC] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/d9t5ujt3nrd8/minhabelezaautentica.com.br/blog/wp-includes/functions.php on line 8
+[08-Sep-2021 22:41:44 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/d9t5ujt3nrd8/minhabelezaautentica.com.br/blog/wp-includes/functions.php on line 8
+[08-Sep-2021 22:41:44 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/d9t5ujt3nrd8/minhabelezaautentica.com.br/blog/wp-includes/functions.php on line 8

@@ -1,0 +1,463 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:01:20
+* VERSION: 1.3.36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.25                                |7.3.17
+OS__________________: WINNT                                 |Linux
+CREATED_____________: 2020-07-19 20:34:49
+WP VERSION__________: 5.4.2
+DUP VERSION_________: 1.3.36
+DB__________________: 8.0.13
+DB TABLES___________: 27
+DB ROWS_____________: 911
+DB FILE SIZE________: 22.75MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.17 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.43 (cPanel) OpenSSL/1.1.1g mod_bwlimited/1.4 Phusion_Passenger/5.3.7
+DOC ROOT____________: "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://www.brandconnect.com.br/clientes/abc/blog/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog/20200719_authenticbeautyconcept_[HASH]_20200719203449_archive.zip"
+SIZE________________: 77.25MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 04:01:24 - RUNTIME: 3.3369 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 04:02:37
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.47 -- Build Server: 8.0.13
+FILE SIZE:	dup-database__[HASH].sql (2.65MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/d9t5ujt3nrd8/public_html/clientes/abc/blog/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.6.47] is less than the build version [8.0.13].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/home/d9t5ujt3nrd8/public_html/clientes/abc/blog/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:392]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	946
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_layerslider: (0)
+wp_layerslider_revisions: (0)
+wp_links: (0)
+wp_options: (186)
+wp_postmeta: (349)
+wp_posts: (135)
+wp_revslider_css: (109)
+wp_revslider_css_bkp: (47)
+wp_revslider_layer_animations: (0)
+wp_revslider_layer_animations_bkp: (0)
+wp_revslider_navigations: (0)
+wp_revslider_navigations_bkp: (0)
+wp_revslider_sliders: (0)
+wp_revslider_sliders_bkp: (0)
+wp_revslider_slides: (0)
+wp_revslider_slides_bkp: (0)
+wp_revslider_static_slides: (0)
+wp_revslider_static_slides_bkp: (0)
+wp_term_relationships: (14)
+wp_term_taxonomy: (3)
+wp_termmeta: (0)
+wp_terms: (3)
+wp_usermeta: (23)
+wp_users: (1)
+Removed '45' cache/transient rows
+
+INSERT DATA RUNTIME: 0.8244 sec.
+STEP-2 COMPLETE @ 04:02:38 - RUNTIME: 0.8379 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+htaccess ark file don' exists
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:02:56
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Authentic Beauty Concept"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/Users/Claudia/Documents/Trabalhos/RCKT/2020/skp/wp"
+path_new______________: "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+siteurl_______________: "https://www.brandconnect.com.br/clientes/abc/blog"
+url_old_______________: "http://localhost:8000"
+url_new_______________: "https://www.brandconnect.com.br/clientes/abc/blog"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Users/Claudia/Documents/Trabalhos/RCKT/2020/skp/wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  2:"C:\/Users\/Claudia\/Documents\/Trabalhos\/RCKT\/2020\/skp\/wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  3:"C%3A%2FUsers%2FClaudia%2FDocuments%2FTrabalhos%2FRCKT%2F2020%2Fskp%2Fwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  4:"C:\Users\Claudia\Documents\Trabalhos\RCKT\2020\skp\wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  5:"C:\\Users\\Claudia\\Documents\\Trabalhos\\RCKT\\2020\\skp\\wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  6:"C%3A%5CUsers%5CClaudia%5CDocuments%5CTrabalhos%5CRCKT%5C2020%5Cskp%5Cwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  7:"//localhost:8000" ================================> "//www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+	SEARCH 10:"http://www.brandconnect.com.br/clientes/abc/blog" => "https://www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH 11:"http:\/\/www.brandconnect.com.br\/clientes\/abc\/blog" => "https:\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH 12:"http%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog" => "https%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_layerslider"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_layerslider_revisions"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   186][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Users/Claudia/Documents/Trabalhos/RCKT/2020/skp/wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  2:"C:\/Users\/Claudia\/Documents\/Trabalhos\/RCKT\/2020\/skp\/wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  3:"C%3A%2FUsers%2FClaudia%2FDocuments%2FTrabalhos%2FRCKT%2F2020%2Fskp%2Fwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  4:"C:\Users\Claudia\Documents\Trabalhos\RCKT\2020\skp\wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  5:"C:\\Users\\Claudia\\Documents\\Trabalhos\\RCKT\\2020\\skp\\wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  6:"C%3A%5CUsers%5CClaudia%5CDocuments%5CTrabalhos%5CRCKT%5C2020%5Cskp%5Cwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  7:"//localhost:8000" ================================> "//www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+	SEARCH 10:"http://www.brandconnect.com.br/clientes/abc/blog" => "https://www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH 11:"http:\/\/www.brandconnect.com.br\/clientes\/abc\/blog" => "https:\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH 12:"http%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog" => "https%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   349][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Users/Claudia/Documents/Trabalhos/RCKT/2020/skp/wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  2:"C:\/Users\/Claudia\/Documents\/Trabalhos\/RCKT\/2020\/skp\/wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  3:"C%3A%2FUsers%2FClaudia%2FDocuments%2FTrabalhos%2FRCKT%2F2020%2Fskp%2Fwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  4:"C:\Users\Claudia\Documents\Trabalhos\RCKT\2020\skp\wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  5:"C:\\Users\\Claudia\\Documents\\Trabalhos\\RCKT\\2020\\skp\\wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  6:"C%3A%5CUsers%5CClaudia%5CDocuments%5CTrabalhos%5CRCKT%5C2020%5Cskp%5Cwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  7:"//localhost:8000" ================================> "//www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+	SEARCH 10:"http://www.brandconnect.com.br/clientes/abc/blog" => "https://www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH 11:"http:\/\/www.brandconnect.com.br\/clientes\/abc\/blog" => "https:\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH 12:"http%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog" => "https%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   135][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Users/Claudia/Documents/Trabalhos/RCKT/2020/skp/wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  2:"C:\/Users\/Claudia\/Documents\/Trabalhos\/RCKT\/2020\/skp\/wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  3:"C%3A%2FUsers%2FClaudia%2FDocuments%2FTrabalhos%2FRCKT%2F2020%2Fskp%2Fwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  4:"C:\Users\Claudia\Documents\Trabalhos\RCKT\2020\skp\wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  5:"C:\\Users\\Claudia\\Documents\\Trabalhos\\RCKT\\2020\\skp\\wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  6:"C%3A%5CUsers%5CClaudia%5CDocuments%5CTrabalhos%5CRCKT%5C2020%5Cskp%5Cwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  7:"//localhost:8000" ================================> "//www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+	SEARCH 10:"http://www.brandconnect.com.br/clientes/abc/blog" => "https://www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH 11:"http:\/\/www.brandconnect.com.br\/clientes\/abc\/blog" => "https:\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH 12:"http%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog" => "https%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Users/Claudia/Documents/Trabalhos/RCKT/2020/skp/wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  2:"C:\/Users\/Claudia\/Documents\/Trabalhos\/RCKT\/2020\/skp\/wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  3:"C%3A%2FUsers%2FClaudia%2FDocuments%2FTrabalhos%2FRCKT%2F2020%2Fskp%2Fwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  4:"C:\Users\Claudia\Documents\Trabalhos\RCKT\2020\skp\wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  5:"C:\\Users\\Claudia\\Documents\\Trabalhos\\RCKT\\2020\\skp\\wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  6:"C%3A%5CUsers%5CClaudia%5CDocuments%5CTrabalhos%5CRCKT%5C2020%5Cskp%5Cwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  7:"//localhost:8000" ================================> "//www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+	SEARCH 10:"http://www.brandconnect.com.br/clientes/abc/blog" => "https://www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH 11:"http:\/\/www.brandconnect.com.br\/clientes\/abc\/blog" => "https:\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH 12:"http%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog" => "https%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Users/Claudia/Documents/Trabalhos/RCKT/2020/skp/wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  2:"C:\/Users\/Claudia\/Documents\/Trabalhos\/RCKT\/2020\/skp\/wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  3:"C%3A%2FUsers%2FClaudia%2FDocuments%2FTrabalhos%2FRCKT%2F2020%2Fskp%2Fwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  4:"C:\Users\Claudia\Documents\Trabalhos\RCKT\2020\skp\wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  5:"C:\\Users\\Claudia\\Documents\\Trabalhos\\RCKT\\2020\\skp\\wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  6:"C%3A%5CUsers%5CClaudia%5CDocuments%5CTrabalhos%5CRCKT%5C2020%5Cskp%5Cwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  7:"//localhost:8000" ================================> "//www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+	SEARCH 10:"http://www.brandconnect.com.br/clientes/abc/blog" => "https://www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH 11:"http:\/\/www.brandconnect.com.br\/clientes\/abc\/blog" => "https:\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH 12:"http%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog" => "https%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Users/Claudia/Documents/Trabalhos/RCKT/2020/skp/wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  2:"C:\/Users\/Claudia\/Documents\/Trabalhos\/RCKT\/2020\/skp\/wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  3:"C%3A%2FUsers%2FClaudia%2FDocuments%2FTrabalhos%2FRCKT%2F2020%2Fskp%2Fwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  4:"C:\Users\Claudia\Documents\Trabalhos\RCKT\2020\skp\wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  5:"C:\\Users\\Claudia\\Documents\\Trabalhos\\RCKT\\2020\\skp\\wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  6:"C%3A%5CUsers%5CClaudia%5CDocuments%5CTrabalhos%5CRCKT%5C2020%5Cskp%5Cwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  7:"//localhost:8000" ================================> "//www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+	SEARCH 10:"http://www.brandconnect.com.br/clientes/abc/blog" => "https://www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH 11:"http:\/\/www.brandconnect.com.br\/clientes\/abc\/blog" => "https:\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH 12:"http%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog" => "https%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Users/Claudia/Documents/Trabalhos/RCKT/2020/skp/wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  2:"C:\/Users\/Claudia\/Documents\/Trabalhos\/RCKT\/2020\/skp\/wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  3:"C%3A%2FUsers%2FClaudia%2FDocuments%2FTrabalhos%2FRCKT%2F2020%2Fskp%2Fwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  4:"C:\Users\Claudia\Documents\Trabalhos\RCKT\2020\skp\wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  5:"C:\\Users\\Claudia\\Documents\\Trabalhos\\RCKT\\2020\\skp\\wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  6:"C%3A%5CUsers%5CClaudia%5CDocuments%5CTrabalhos%5CRCKT%5C2020%5Cskp%5Cwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  7:"//localhost:8000" ================================> "//www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+	SEARCH 10:"http://www.brandconnect.com.br/clientes/abc/blog" => "https://www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH 11:"http:\/\/www.brandconnect.com.br\/clientes\/abc\/blog" => "https:\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH 12:"http%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog" => "https%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Users/Claudia/Documents/Trabalhos/RCKT/2020/skp/wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  2:"C:\/Users\/Claudia\/Documents\/Trabalhos\/RCKT\/2020\/skp\/wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  3:"C%3A%2FUsers%2FClaudia%2FDocuments%2FTrabalhos%2FRCKT%2F2020%2Fskp%2Fwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  4:"C:\Users\Claudia\Documents\Trabalhos\RCKT\2020\skp\wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  5:"C:\\Users\\Claudia\\Documents\\Trabalhos\\RCKT\\2020\\skp\\wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  6:"C%3A%5CUsers%5CClaudia%5CDocuments%5CTrabalhos%5CRCKT%5C2020%5Cskp%5Cwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  7:"//localhost:8000" ================================> "//www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+	SEARCH 10:"http://www.brandconnect.com.br/clientes/abc/blog" => "https://www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH 11:"http:\/\/www.brandconnect.com.br\/clientes\/abc\/blog" => "https:\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH 12:"http%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog" => "https%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Users/Claudia/Documents/Trabalhos/RCKT/2020/skp/wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  2:"C:\/Users\/Claudia\/Documents\/Trabalhos\/RCKT\/2020\/skp\/wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  3:"C%3A%2FUsers%2FClaudia%2FDocuments%2FTrabalhos%2FRCKT%2F2020%2Fskp%2Fwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  4:"C:\Users\Claudia\Documents\Trabalhos\RCKT\2020\skp\wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  5:"C:\\Users\\Claudia\\Documents\\Trabalhos\\RCKT\\2020\\skp\\wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  6:"C%3A%5CUsers%5CClaudia%5CDocuments%5CTrabalhos%5CRCKT%5C2020%5Cskp%5Cwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  7:"//localhost:8000" ================================> "//www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+	SEARCH 10:"http://www.brandconnect.com.br/clientes/abc/blog" => "https://www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH 11:"http:\/\/www.brandconnect.com.br\/clientes\/abc\/blog" => "https:\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH 12:"http%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog" => "https%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Users/Claudia/Documents/Trabalhos/RCKT/2020/skp/wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  2:"C:\/Users\/Claudia\/Documents\/Trabalhos\/RCKT\/2020\/skp\/wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  3:"C%3A%2FUsers%2FClaudia%2FDocuments%2FTrabalhos%2FRCKT%2F2020%2Fskp%2Fwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  4:"C:\Users\Claudia\Documents\Trabalhos\RCKT\2020\skp\wp" => "/home/d9t5ujt3nrd8/public_html/clientes/abc/blog"
+	SEARCH  5:"C:\\Users\\Claudia\\Documents\\Trabalhos\\RCKT\\2020\\skp\\wp" => "\/home\/d9t5ujt3nrd8\/public_html\/clientes\/abc\/blog"
+	SEARCH  6:"C%3A%5CUsers%5CClaudia%5CDocuments%5CTrabalhos%5CRCKT%5C2020%5Cskp%5Cwp" => "%2Fhome%2Fd9t5ujt3nrd8%2Fpublic_html%2Fclientes%2Fabc%2Fblog"
+	SEARCH  7:"//localhost:8000" ================================> "//www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH  8:"\/\/localhost:8000" ==============================> "\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH  9:"%2F%2Flocalhost%3A8000" ==========================> "%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+	SEARCH 10:"http://www.brandconnect.com.br/clientes/abc/blog" => "https://www.brandconnect.com.br/clientes/abc/blog"
+	SEARCH 11:"http:\/\/www.brandconnect.com.br\/clientes\/abc\/blog" => "https:\/\/www.brandconnect.com.br\/clientes\/abc\/blog"
+	SEARCH 12:"http%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog" => "https%3A%2F%2Fwww.brandconnect.com.br%2Fclientes%2Fabc%2Fblog"
+--------------------------------------
+SCANNED:	Tables:27 	|	 Rows:871 	|	 Cells:6370 
+UPDATED:	Tables:3 	|	 Rows:141 	|	 Cells:174 
+ERRORS:		0 
+RUNTIME:	0.127600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""abc_blog""
+	UPDATE DB_USER ""abc_blog""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+[PHP ERR][WARN] MSG:file_get_contents(/home/d9t5ujt3nrd8/public_html/clientes/abc/blog/dup-installer/dup-orig-htaccess__[HASH].txt): failed to open stream: No such file or directory [CODE:2|FILE:/home/d9t5ujt3nrd8/public_html/clientes/abc/blog/dup-installer/classes/class.s3.func.php|LINE:1236]
+
+STEP-3 COMPLETE @ 04:02:56 - RUNTIME: 0.1528 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================
